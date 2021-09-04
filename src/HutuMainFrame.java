@@ -36,6 +36,7 @@ public class HutuMainFrame {
         f.add(tb,BorderLayout.NORTH);
         f.add(new JPanel(),BorderLayout.CENTER);
         f.setVisible(true);
+
         bSpend.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
